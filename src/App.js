@@ -10,7 +10,7 @@ export const App = () => { //this is fat Arror  ==> ES6 ===> 2015
             <Routes>
                 {
 
-                    routesgit .map((currentValue, index, arr) => {
+                    routes.map((currentValue, index, arr) => {
                         return ( <Route key={index} path={currentValue.path} element={ currentValue.element} />)
                     })
 
